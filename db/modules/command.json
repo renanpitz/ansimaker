@@ -1,0 +1,36 @@
+{
+  "module": "command",
+  "options": [
+    {
+      "name": "chdir",
+      "required": false,
+      "default": null,
+      "choices": null,
+      "comments": "Change into this directory before running the command."
+    },
+    {
+      "name": "creates",
+      "required": false,
+      "default": null,
+      "choices": null,
+      "comments": "A filename or (since 2.0) glob pattern, when it already exists, this step will not be run."
+    },
+    {
+      "name": "free_form",
+      "required": true,
+      "default": null,
+      "choices": null,
+      "comments": "The command module takes a free form command to run. There is no parameter actually named 'free form'. See the examples!"
+    },
+    {
+      "name": "removes",
+      "required": false,
+      "default": true,
+      "choices": [
+        true,
+        false
+      ],
+      "comments": "If command_warnings are on in ansible.cfg, do not warn about this particular line if set to no."
+    }
+  ]
+}
