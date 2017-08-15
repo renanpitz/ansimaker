@@ -1,10 +1,14 @@
 # Ansimaker
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img width="200" src="https://github.com/ansimaker/ansimaker/blob/master/assets/worker.png"/>
+
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Ansimaker provides an easy to use interface that helps you generate Ansible Playbooks.
 
-# Run
+Run
+------
 
 |NPM scripts  | Gulp tasks | Description
 ------------- | ------------ | ----------
